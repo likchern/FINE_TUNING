@@ -1,0 +1,7 @@
+# 校验与规则评分无需额外依赖（仅用标准库 + 项目已有的 requests）
+# 使用 --score-llm 调用 Qwen API 时需要：
+requests>=2.31.0
+# 从 .env 加载 API Key（可选，不装则仅从环境变量读取）
+python-dotenv>=1.0.0
+# 校验结果前端
+streamlit>=1.28.0
